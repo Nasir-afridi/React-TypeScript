@@ -26,3 +26,10 @@ function func() {
     let name = "Nasir"
 }
 console.log(name)
+
+
+// 5.
+function greet(msg = "friend") {
+    console.log(`${msg}`);
+}
+greet();
