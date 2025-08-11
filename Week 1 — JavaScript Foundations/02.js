@@ -1,8 +1,11 @@
 // 1.
 function factorail(n) {
-    n = n * n
-    return n
-}
+   let result = 1
+   for(let i = 1; i <= n; i++){
+    result  *= i
+   }
+   return result
+} 
 console.log(factorail(2))
 
 
