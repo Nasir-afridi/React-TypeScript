@@ -18,3 +18,12 @@ for(let i = 1; i <= 50; i += 2) {
     sum = sum + i
 }
 console.log(sum)
+
+
+// 4.
+let a = 10
+do {
+    console.log(a) 
+    a--
+}
+while(a >= 1)
