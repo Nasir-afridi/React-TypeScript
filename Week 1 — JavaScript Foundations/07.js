@@ -27,3 +27,9 @@ do {
     a--
 }
 while(a >= 1)
+
+
+// 5.
+let str = "Nasir"
+let reverse = str.split('').reverse().join('')
+console.log(reverse)
