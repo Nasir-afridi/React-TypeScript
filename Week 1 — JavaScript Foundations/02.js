@@ -19,3 +19,11 @@ const square = (sqr) => {
     return sqr * sqr
 }
 console.log(square(2))
+
+
+//4.
+const multiplys = function (a, b) {
+    let result = a * b
+    return result
+}
+console.log(multiplys(4, 8))
