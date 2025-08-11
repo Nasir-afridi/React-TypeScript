@@ -11,4 +11,4 @@ function palindrome(name) {
     let str = name.split('').reverse('').join('')
     return name === str
 }
-console.log(palindrome(""))
+console.log(palindrome("madam"))
