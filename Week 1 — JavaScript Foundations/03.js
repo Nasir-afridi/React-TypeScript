@@ -17,4 +17,4 @@ console.log(sqr)
 //4.
 let red = [10, 20, 30, 40]
 let res = red.reduce((acc, curr) => acc + curr)
-console.log
+console.log(res)
