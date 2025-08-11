@@ -19,3 +19,9 @@ let arr1 = [1, 2, 3, 4]
 let arr2 = [5, 6, 7, 8]
 let final = [...arr1 , ...arr2]
 console.log(final)
+
+// 4.
+function product(...num) {
+    return num.reduce((acc, curr) => acc * curr)
+}
+console.log(product(2, 3))
