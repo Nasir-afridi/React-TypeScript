@@ -19,3 +19,10 @@ const cube = (n) => {
 }
 let res = cube(2)
 console.log(res)
+
+
+// 4.
+function func() {
+    let name = "Nasir"
+}
+console.log(name)
