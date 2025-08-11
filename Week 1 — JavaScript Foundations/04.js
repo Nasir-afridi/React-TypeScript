@@ -27,3 +27,15 @@ book.author = "john"
 console.log(book)
 book.year = 2011
 console.log(book)
+
+
+// 4.
+let person = {
+    Name : "Nasir",
+    year : 2021,
+    country : "pakistan"
+}
+
+for (let key in person) {
+    console.log(key, person[key])
+}
