@@ -12,3 +12,10 @@ function palindrome(name) {
     return name === str
 }
 console.log(palindrome("madam"))
+
+
+//3.
+const square = (sqr) => {
+    return sqr * sqr
+}
+console.log(square(2))
