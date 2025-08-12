@@ -11,3 +11,12 @@ greetFunc()
 
 const Funct = greetFunc.bind(obj)
 Funct()
+
+
+function introduce(city, country) {
+    console.log(`my Name is ${this.nmae}, am from ${city}: ${country}`)
+}
+
+const user = {nmae : "nasir"}
+introduce.call(user, "islamabad", "pakistan")
+introduce.apply(user, ["pindi", "islamabad"])
